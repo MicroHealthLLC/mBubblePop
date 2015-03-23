@@ -1,0 +1,110 @@
+/*body
+{
+    position: relative;
+    overflow: hidden;
+    background-image: url("bubble_background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}*/
+
+#wrapper img{
+    width:35px;
+    height: 35px;
+}
+
+/*h1
+{
+    color: rgb(0,128,0);
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+}*/
+#wrapper{
+    width: 400px;
+    padding-left: 7px;
+}
+/*h2
+{
+    color: Black;
+    font-size: 16pt;
+    position: fixed;
+    left: 90px;
+    top: 250px;
+}
+
+h3
+{
+    color: Black;
+    font-size: 16pt;
+    position: fixed;
+    left: 90px;
+    top: 225px;
+}
+h4
+{
+    color: Red;
+    font-size: 16pt;
+    position: fixed;
+    left: 90px;
+    top: 260px;
+}
+button
+{
+    position: fixed;
+    left: 90px;
+    top: 315px;
+}
+*/
+/*table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+.lowbar{
+    width:390px;
+    height:60px;
+    position:relative;
+    background:blue
+}
+
+.pointdiv{
+    color:white;
+    font-size:13px;
+    padding: 5px;
+    font-family : monospace;
+    margin-left: 150px;
+}
+
+.newgame {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9dce2c), color-stop(1, #8cb82b) );
+    background-color:#9dce2c;
+    -webkit-border-top-left-radius:20px;
+    border-top-left-radius:20px;
+    -webkit-border-top-right-radius:20px;
+    border-top-right-radius:20px;
+    -webkit-border-bottom-right-radius:20px;
+    border-bottom-right-radius:20px;
+    -webkit-border-bottom-left-radius:20px;
+    border-bottom-left-radius:20px;
+    text-indent:0;
+    border:1px solid #83c41a;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Comic Sans MS;
+    font-size:15px;
+    font-weight:normal;
+    font-style:normal;
+    height:31px;
+    line-height:31px;
+    width:131px;
+    text-decoration:none;
+    text-align:center;
+}
+.newgame:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #8cb82b), color-stop(1, #9dce2c) );
+    background-color:#8cb82b;
+}.newgame:active {
+    position:relative;
+    top:1px;
+}
